@@ -1,4 +1,24 @@
 package edu.estatuas.galleygrub.order;
 
-public class Order {
+import edu.estatuas.galleygrub.items.Item;
+import edu.estatuas.galleygrub.items.ItemFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Order implements Comanda{
+    private ArrayList<Item> items = new ArrayList<>();
+    private Double total = 0d;
+
+    @Override
+    public void addItem(String item, double price) {
+        total += price;
+        items.add(ItemFactory.getInstance().getItem(item, price));
+    }
+
+    @Override
+    public void addItem(String item, double price, String extra){
+        total += price;
+        items.add(ItemFactory.getInstance().getItem(item, price, extra));
+    }
 }
