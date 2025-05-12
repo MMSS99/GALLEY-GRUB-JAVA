@@ -21,4 +21,11 @@ public class Order implements Comanda{
         total += price;
         items.add(ItemFactory.getInstance().getItem(item, price, extra));
     }
+
+    @Override
+    public void display() {
+        StringBuilder display = new StringBuilder();
+        items.forEach(item -> display.append(item.toString()).append("\n"));
+        System.out.println(display.toString());
+    }
 }
