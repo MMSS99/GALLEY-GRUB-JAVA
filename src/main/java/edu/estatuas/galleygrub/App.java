@@ -1,17 +1,17 @@
-package edu.estatuas.gallerygrub;
+package edu.estatuas.galleygrub;
 
-import edu.estatuas.gallerygrub.extras.CheeseExtra;
-import edu.estatuas.gallerygrub.extras.Extra;
-import edu.estatuas.gallerygrub.extras.Regular;
-import edu.estatuas.gallerygrub.extras.SauceExtra;
-import edu.estatuas.gallerygrub.extras.SizeLargeExtra;
-import edu.estatuas.gallerygrub.items.Item;
-import edu.estatuas.gallerygrub.items.RetailPrice;
-import edu.estatuas.gallerygrub.items.Product;
-import edu.estatuas.gallerygrub.order.Comanda;
-import edu.estatuas.gallerygrub.order.Order;
-import edu.estatuas.gallerygrub.receipt.Receipt;
-import edu.estatuas.gallerygrub.receipt.Ticket;
+import edu.estatuas.galleygrub.extras.CheeseExtra;
+import edu.estatuas.galleygrub.extras.Extra;
+import edu.estatuas.galleygrub.extras.Regular;
+import edu.estatuas.galleygrub.extras.SauceExtra;
+import edu.estatuas.galleygrub.extras.SizeLargeExtra;
+import edu.estatuas.galleygrub.items.Item;
+import edu.estatuas.galleygrub.items.RetailPrice;
+import edu.estatuas.galleygrub.items.Product;
+import edu.estatuas.galleygrub.order.Comanda;
+import edu.estatuas.galleygrub.order.Order;
+import edu.estatuas.galleygrub.receipt.Receipt;
+import edu.estatuas.galleygrub.receipt.Ticket;
 
 /**
  *
