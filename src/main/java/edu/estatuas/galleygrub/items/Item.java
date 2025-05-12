@@ -16,6 +16,10 @@ public class Item implements Product{
         this.extra = extra;
     }
 
+    public Double price() {
+        return price;
+    }
+
     @Override
     public String toString(){
         return extra == null ? (name + "...." + price) : (name + " w/ " + extra + "...." + price);
